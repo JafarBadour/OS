@@ -1,0 +1,33 @@
+1  sudo apt install -y chromium-browser
+2  sudo apt-get install bluetooth bluez bluez-tools rfkill
+3  sudo rfkill list
+4  sudo rfkill unblock bluetooth
+5  sudo service bluetooth start
+6  sudo apt-get install blueman
+7  docker run
+8  sudo apt install docker.io
+9  git
+10  g
+11  git
+12  sudo apt git install
+13  setxkbmap -option caps:none
+14  snap install spotify
+15  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+16  echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+17  sudo apt-get update
+18  sudo apt-get install spotify-client
+19  apt-get update
+20  sudo apt-get update
+21  sudo apt-get install git-core
+22  git --version
+23  git config --global user.name "homycdev"
+24  user
+25  git user
+26  git config
+27  utserver -settingspath /opt/utorrent-server-alpha-v3_3/
+28  sudo apt-get install deluge
+29  sudo apt install libasound2-plugin-equal 
+30  alsamixer -D equal
+31  amixer -D equal
+32  alsamixer -D equal
+33  history
