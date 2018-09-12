@@ -10,7 +10,7 @@ void zbr()
 }
 int main(int argc, char const *argv[])
 {
-    while (true)
+    while (1)
     {
         zbr();
     }
