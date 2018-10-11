@@ -1,0 +1,2 @@
+Virtual address is an address in VirtualMemory which is mapped to Physical address in PhysicalMemory.
+VirualMemory basically has more addresses than PhysicalMemory. 

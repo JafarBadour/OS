@@ -1,0 +1,5 @@
+16-bit virtual address
+8-KB page
+? entries are needed
+
+(2^16)byte / (8*1024)byte  = (2^13)byte / (2^16)byte = 8 entries
