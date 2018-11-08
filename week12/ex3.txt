@@ -1,0 +1,20 @@
+findings from exercise 3:
+
+- file size: 10M
+	- DBUF: 10  bytes   -> sys0m1.628s
+	- DBUF: 100 bytes   -> sys0m0.184s
+	- DBUF: 512 bytes   -> sys0m0.044s
+- file size: 100M
+	- DBUF: 10  bytes   -> sys0m16.628s
+	- DBUF: 100 bytes   -> sys0m1.840s
+	- DBUF: 512 bytes   -> sys0m0.468s      
+
+with O_SYNC:
+
+- file size: 10M
+	- DBUF: 100 bytes   -> sys0m2.744s
+	- DBUF: 512 bytes   -> sys0m0.496s
+
+obviously with O_SYNC, total elapsed time of operations is much bigger.
+
+it makes huge difference for speed, especially with small buffers. 
