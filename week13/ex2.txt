@@ -1,0 +1,3 @@
+While it is not possible to know how resources are being used, preventing is well strategy to deal with it.
+Information about processes recources is not known, hence avoidance is not appropriate.
+Recovery is good to interrupt the proccess when It is not possible to predict the outcome. It used when deadlock has occured.
